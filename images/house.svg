@@ -1,0 +1,7 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+width="240" height="240" xml:space="preserve">
+<symbol id="house-image" viewBox="0 0 240 240">
+<polyline points="40,120 130,20 190,120" stroke="black" stroke-width="15"  fill="none"/>
+<polyline points="80,140 80,220 110,220 110,180 160,180 160,220 190,220 190,140" stroke="black"
+stroke-width="15" fill="none" />
+</svg>

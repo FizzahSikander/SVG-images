@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>SVG</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="clock">
+                <svg width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="110" cy="110" r="100" stroke-width="0" fill="black" />
+                    <polyline points="70,110 110,110 110,70" stroke="grey" stroke-width="20" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="house">
+                <svg width="240" height="240" viewbox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <polyline points="40,120 130,20 190,120" stroke="black" stroke-width="15" />
+                    <polyline points="80,140 80,220 110,220 110,180 160,180 160,220 190,220 190,140" stroke="black"
+                        stroke-width="15" />
+                </svg>
+            </div>
+            <div>
+                <svg>
+                    <use href="images/clock.svg#clock-image"></use>
+                </svg>
+            </div>
+            <div>
+                <svg>
+                    <use href="images/house.svg#house-image"></use>
+                </svg>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
